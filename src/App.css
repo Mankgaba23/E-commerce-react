@@ -7,6 +7,53 @@
   pointer-events: none;
 }
 
+.header{
+  border-bottom: 1px solid #282c34;
+}
+
+.NavBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.logo-nav{
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #61dafb;
+}
+
+.menu-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-nav{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: cadetblue;
+  margin-left: 15px;
+}
+
+.link-nav:hover{
+  color: red;
+}
+
+.prices{
+  width: 100%;
+  padding: 90px 8;
+}
+
+.product_image img{
+  width: 250px;
+}
+
+p{
+  color:red;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -21,7 +68,19 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: pink;
+}
+img {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  max-height: 50;
+}
+img {
+ 
+  border: 'solid px red';
 }
 
 .App-link {
