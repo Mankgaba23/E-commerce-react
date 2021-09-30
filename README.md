@@ -1,6 +1,6 @@
 # E-commerce App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project url:  https://shoping-list-19dc3.web.app
 
 ## Available Scripts
 
