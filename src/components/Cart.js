@@ -86,7 +86,7 @@ const Cart = () => {
                                     </Typography>
                                 </Grid>
                             </Grid>
-                            <Button color="secondary">Remove</Button>
+                            
 
                         </Grid >
                         <Grid>

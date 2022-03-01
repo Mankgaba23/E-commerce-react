@@ -48,11 +48,11 @@ const Shop = () => {
         try {
             if (user) {
                 db.collection("Cart").add({
-                    uid:user.uid,
+                    uid: user.uid,
                     product
                 }).then(
                     alert("Iterm Added To Cart")
-                ).catch((error )=>{
+                ).catch((error) => {
                     console.log(error.message)
                 })
 
@@ -64,28 +64,41 @@ const Shop = () => {
         }
     }
     return (
-        <div className="prices">
-            <div className=" container">
-                <div className="row">
-                    {products && products.map(product => (
-                        <div key={product.id} className="col-4">
-                            <div className="price">
-                                <div className="product_image">
-                                    <img src={product.ProductImage} />
-                                </div>
-                                <h1 className="price_heading"> {product.ProductName} </h1>
-                                <p className="price_text"> {product.ProductDescription}</p>
-                                <p className="price_rs">R{product.ProductPrice}</p>
-                                <button onClick={() => addToCart(product)} className="button_price">Add To Cart</button>
-                            </div>
-                        </div>
+        <section className='menu'>
+            <div className="title">
+                <h2>Menu</h2>
+            </div>
+            <div className="prices">
+                <div className=" container">
+                    <div className="row">
+                        {products && products.map(product => (
+                            <div key={product.id} className="col-4">
+                                <div className="price">
+                                    <div className="product_image">
+                                        <img src={product.ProductImage} />
+                                    </div>
+                                    <div>
+                                        <h3 className="price_heading"> {product.ProductName} </h3>
+                                    </div>
 
-                    ))}
+                                    <div>
+                                        <p className="price_text"> {product.ProductDescription}</p>
+                                    </div>
+
+                                    <div>
+                                        <p className="price_rs">R{product.ProductPrice}</p>
+                                    </div>
+                                    <div><button onClick={() => addToCart(product)} className="button_price">Add To Cart</button> </div>
+                                </div>
+                            </div>
+
+                        ))}
+
+                    </div>
 
                 </div>
-
             </div>
-        </div>
+        </section>
     );
 };
 

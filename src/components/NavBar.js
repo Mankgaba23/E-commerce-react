@@ -9,12 +9,16 @@ import { Button } from '@material-ui/core';
 import { Logout } from 'react';
 import { auth } from '../Firebase';
 
+
 const NavBar = () => {
     function Logout() {
+       
 
         auth.signOut().then(
             alert("has signned out")
+            
         )
+       
     }
     return (
         <Router>

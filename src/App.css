@@ -18,6 +18,12 @@
   padding: 1rem 1.5rem;
 }
 
+.col-4{
+  display:inline-block;
+
+
+}
+
 .logo-nav{
   font-size: 2.1rem;
   font-weight: 500;
@@ -44,14 +50,17 @@
 .prices{
   width: 100%;
   padding: 90px 8;
+ 
 }
 
 .product_image img{
   width: 250px;
+  margin-Right: 40px;
 }
 
 p{
   color:red;
+  font-size: medium;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -61,7 +70,7 @@ p{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1455d6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -70,6 +79,8 @@ p{
   font-size: calc(10px + 2vmin);
   color: pink;
 }
+
+
 img {
   width: 400px;
   height: 300px;
@@ -77,10 +88,11 @@ img {
   margin: auto;
   max-width: 300px;
   max-height: 50;
+  margin-Right: 40px;
 }
 img {
- 
   border: 'solid px red';
+  margin-Right: 40px;
 }
 
 .App-link {
@@ -95,3 +107,4 @@ img {
     transform: rotate(360deg);
   }
 }
+
