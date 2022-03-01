@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# E-commerce App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project url:  https://shoping-list-19dc3.web.app
+
+![SignUp Page](https://user-images.githubusercontent.com/87143175/135529269-6fd09adf-99eb-4325-bae5-d873b3d0d243.PNG)
+
+
+![SignIn pge](https://user-images.githubusercontent.com/87143175/135529289-fa12cff8-1ccb-4fe0-9174-7310183288b6.PNG)
+
+
 
 ## Available Scripts
 
