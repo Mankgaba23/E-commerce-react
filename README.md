@@ -1,6 +1,6 @@
 # E-commerce App
 
-Project url: https://shoping-list-19dc3.web.app
+Project url:https://shoping-list-19dc3.web.app/
 
 ![SignUp Page](https://user-images.githubusercontent.com/87143175/135529269-6fd09adf-99eb-4325-bae5-d873b3d0d243.PNG)
 
